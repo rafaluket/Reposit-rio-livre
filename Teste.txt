@@ -45,7 +45,7 @@
       </p>
       
       <!-- Notebook Information Section -->
-      <div style="background-color: #fffbeb; border: 1px solid #fbbf24; border-radius: 8px; padding: 16px; margin-bottom: 24px;">
+      <div style="background-color: #fffbeb; border: 1px solid #fbbf24; border-radius: 8px; padding: 16px; margin-bottom: 16px;">
         <h3 style="font-size: 16px; color: #92400e; margin-top: 0; margin-bottom: 12px; display: flex; align-items: center;">
           <svg style="margin-right: 8px; color: #EC7000;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
@@ -67,6 +67,39 @@
             <td style="padding: 8px; color: #4b5563; font-family: monospace;">LR-07X92P5T</td>
           </tr>
         </table>
+      </div>
+      
+      <!-- Not Your Notebook Section -->
+      <div style="background-color: #fef2f2; border: 1px solid #f87171; border-radius: 8px; padding: 16px; margin-bottom: 24px;">
+        <h3 style="font-size: 16px; color: #b91c1c; margin-top: 0; margin-bottom: 12px; display: flex; align-items: center;">
+          <svg style="margin-right: 8px; color: #ef4444;" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="12" y1="8" x2="12" y2="12"></line>
+            <line x1="12" y1="16" x2="12.01" y2="16"></line>
+          </svg>
+          Not Your Notebook?
+        </h3>
+        <p style="font-size: 14px; color: #7f1d1d; margin-bottom: 12px;">
+          If this notebook is not assigned to you or the information above is incorrect, please report it immediately by clicking the link below to complete the regularization form.
+        </p>
+        <div style="background-color: #fee2e2; padding: 12px; border-radius: 4px; margin-bottom: 12px;">
+          <p style="font-size: 14px; color: #991b1b; margin-bottom: 8px; font-weight: 500;">How to complete the regularization form:</p>
+          <ol style="margin: 0; padding-left: 24px; color: #991b1b; font-size: 14px;">
+            <li style="margin-bottom: 4px;">Enter the serial number exactly as shown above</li>
+            <li style="margin-bottom: 4px;">Provide your employee ID and department</li>
+            <li style="margin-bottom: 4px;">Explain the situation in the comments field</li>
+            <li style="margin-bottom: 0;">Submit the form and await further instructions from IT</li>
+          </ol>
+        </div>
+        <div style="text-align: center;">
+          <table border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto;">
+            <tr>
+              <td style="border-radius: 4px;" bgcolor="#dc2626">
+                <a href="https://itau.service-now.com/asset_regularization?serial=LR-07X92P5T" target="_blank" style="font-size: 14px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 4px; padding: 8px 16px; border: 1px solid #dc2626; display: inline-block; font-weight: bold;">REGULARIZE NOTEBOOK ASSIGNMENT</a>
+              </td>
+            </tr>
+          </table>
+        </div>
       </div>
       
       <div style="background-color: #f9fafb; padding: 16px; border-radius: 8px; margin-bottom: 24px;">

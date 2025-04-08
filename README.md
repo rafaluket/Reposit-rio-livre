@@ -1,3 +1,4 @@
+```
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -235,3 +236,4 @@ ABC123XYZ</code>
     </script>
 </body>
 </html>
+```

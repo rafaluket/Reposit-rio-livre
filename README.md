@@ -1,45 +1,31 @@
 HTML
 ```
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="format-detection" content="telephone=no" />
   <title>Itaú Notebook Terms Agreement</title>
-  <!--[if gte mso 9]>
-  <xml>
-    <o:OfficeDocumentSettings>
-      <o:AllowPNG/>
-      <o:PixelsPerInch>96</o:PixelsPerInch>
-    </o:OfficeDocumentSettings>
-  </xml>
-  <![endif]-->
-  <!--[if gte mso 9]>
+  <!--[if mso]>
   <style type="text/css">
-    table.button-table {border-collapse: separate !important;}
+    body, table, td {font-family: Arial, Helvetica, sans-serif !important;}
   </style>
   <![endif]-->
 </head>
-<body style="margin: 0; padding: 0; background-color: #f5f5f5; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.5; color: #333333; width: 100% !important;">
+<body style="margin: 0; padding: 0; background-color: #f5f5f5; font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.5; color: #333333; width: 100%;">
   <!-- Email wrapper -->
-  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+  <table border="0" cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;">
     <tr>
       <td bgcolor="#f5f5f5" align="center" style="padding: 20px 0;">
         <!-- Email container -->
-        <table border="0" cellpadding="0" cellspacing="0" width="600" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 600px; max-width: 100%;">
+        <table border="0" cellpadding="0" cellspacing="0" width="600" style="max-width: 600px;">
           <!-- Header -->
           <tr>
-            <td bgcolor="#EC7000" style="padding: 20px; color: #ffffff; border-top-left-radius: 8px; border-top-right-radius: 8px;">
-              <!--[if gte mso 9]>
-              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:60px;v-text-anchor:middle;width:560px;" arcsize="8%" strokecolor="none" fillcolor="#EC7000">
-                <w:anchorlock/>
-                <v:textbox inset="0,0,0,0">
-              <![endif]-->
-              <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+            <td bgcolor="#EC7000" style="padding: 20px; color: #ffffff;">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
                   <td style="font-family: Arial, sans-serif; width: 70%;">
-                    <table border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <table border="0" cellpadding="0" cellspacing="0">
                       <tr>
                         <td style="font-family: Arial, sans-serif; font-size: 24px; font-weight: bold;">
                           itaú
@@ -58,17 +44,13 @@ HTML
                   </td>
                 </tr>
               </table>
-              <!--[if gte mso 9]>
-                </v:textbox>
-              </v:roundrect>
-              <![endif]-->
             </td>
           </tr>
           
           <!-- ServiceNow Request Info -->
           <tr>
             <td bgcolor="#f0f9ff" style="border-left: 4px solid #003087; padding: 12px 16px; font-size: 14px;">
-              <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
                   <td style="font-family: Arial, sans-serif; width: 60%;">
                     <span style="font-weight: bold; color: #003087;">ServiceNow Request:</span> 
@@ -84,13 +66,8 @@ HTML
           
           <!-- Main Content -->
           <tr>
-            <td bgcolor="#ffffff" style="padding: 24px; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
-              <!--[if gte mso 9]>
-              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:auto;v-text-anchor:middle;width:560px;" arcsize="8%" strokecolor="none" fillcolor="#ffffff">
-                <w:anchorlock/>
-                <v:textbox inset="0,0,0,0">
-              <![endif]-->
-              <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+            <td bgcolor="#ffffff" style="padding: 24px;">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
                 <!-- Title -->
                 <tr>
                   <td style="font-family: Arial, sans-serif; padding-bottom: 16px;">
@@ -113,28 +90,16 @@ HTML
                 <!-- Notebook Information Section -->
                 <tr>
                   <td style="padding-bottom: 16px;">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border: 1px solid #fbbf24; background-color: #fffbeb; border-radius: 8px; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
-                      <!--[if gte mso 9]>
-                      <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:auto;v-text-anchor:middle;width:560px;" arcsize="8%" strokecolor="#fbbf24" fillcolor="#fffbeb">
-                        <w:anchorlock/>
-                        <v:textbox inset="0,0,0,0">
-                      <![endif]-->
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border: 1px solid #fbbf24; background-color: #fffbeb;">
                       <tr>
                         <td style="padding: 16px;">
-                          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
                               <td style="font-family: Arial, sans-serif; padding-bottom: 12px;">
-                                <table border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                <table border="0" cellpadding="0" cellspacing="0">
                                   <tr>
                                     <td style="vertical-align: middle; padding-right: 8px;">
-                                      <!--[if gte mso 9]>
-                                      <v:oval xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:18px;width:18px;" fillcolor="#EC7000" strokecolor="none">
-                                        <w:anchorlock/>
-                                      </v:oval>
-                                      <![endif]-->
-                                      <!--[if !mso]><!-->
-                                      <img src="https://i.imgur.com/JMdtMpZ.png" width="18" height="18" alt="Laptop" style="display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
-                                      <!--<![endif]-->
+                                      <img src="https://i.imgur.com/JMdtMpZ.png" width="18" height="18" alt="Laptop" style="display: block;" />
                                     </td>
                                     <td style="font-family: Arial, sans-serif; font-size: 16px; font-weight: 500; color: #92400e;">
                                       Notebook Information
@@ -145,7 +110,7 @@ HTML
                             </tr>
                             <tr>
                               <td>
-                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="font-size: 14px; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="font-size: 14px;">
                                   <tr>
                                     <td width="30%" style="font-family: Arial, sans-serif; padding: 8px; border-bottom: 1px solid #fde68a; font-weight: 500; color: #78350f;">Model:</td>
                                     <td style="font-family: Arial, sans-serif; padding: 8px; border-bottom: 1px solid #fde68a; color: #4b5563;">ThinkPad X1 Carbon Gen 10</td>
@@ -164,10 +129,6 @@ HTML
                           </table>
                         </td>
                       </tr>
-                      <!--[if gte mso 9]>
-                        </v:textbox>
-                      </v:roundrect>
-                      <![endif]-->
                     </table>
                   </td>
                 </tr>
@@ -175,28 +136,16 @@ HTML
                 <!-- Not Your Notebook Section -->
                 <tr>
                   <td style="padding-bottom: 24px;">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border: 1px solid #f87171; background-color: #fef2f2; border-radius: 8px; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
-                      <!--[if gte mso 9]>
-                      <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:auto;v-text-anchor:middle;width:560px;" arcsize="8%" strokecolor="#f87171" fillcolor="#fef2f2">
-                        <w:anchorlock/>
-                        <v:textbox inset="0,0,0,0">
-                      <![endif]-->
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border: 1px solid #f87171; background-color: #fef2f2;">
                       <tr>
                         <td style="padding: 16px;">
-                          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
                               <td style="font-family: Arial, sans-serif; padding-bottom: 12px;">
-                                <table border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                <table border="0" cellpadding="0" cellspacing="0">
                                   <tr>
                                     <td style="vertical-align: middle; padding-right: 8px;">
-                                      <!--[if gte mso 9]>
-                                      <v:oval xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:18px;width:18px;" fillcolor="#ef4444" strokecolor="none">
-                                        <w:anchorlock/>
-                                      </v:oval>
-                                      <![endif]-->
-                                      <!--[if !mso]><!-->
-                                      <img src="https://i.imgur.com/JYfAYOg.png" width="18" height="18" alt="Warning" style="display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
-                                      <!--<![endif]-->
+                                      <img src="https://i.imgur.com/JYfAYOg.png" width="18" height="18" alt="Warning" style="display: block;" />
                                     </td>
                                     <td style="font-family: Arial, sans-serif; font-size: 16px; font-weight: 500; color: #b91c1c;">
                                       Not Your Notebook?
@@ -212,16 +161,11 @@ HTML
                             </tr>
                             <tr>
                               <td style="padding-bottom: 12px;">
-                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #fee2e2; border-radius: 4px; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
-                                  <!--[if gte mso 9]>
-                                  <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:auto;v-text-anchor:middle;width:560px;" arcsize="4%" strokecolor="none" fillcolor="#fee2e2">
-                                    <w:anchorlock/>
-                                    <v:textbox inset="0,0,0,0">
-                                  <![endif]-->
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #fee2e2;">
                                   <tr>
                                     <td style="padding: 12px; font-family: Arial, sans-serif;">
                                       <p style="font-size: 14px; color: #991b1b; margin: 0 0 8px 0; font-weight: 500;">How to complete the regularization form:</p>
-                                      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                      <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                         <tr>
                                           <td width="24" valign="top" style="font-family: Arial, sans-serif; color: #991b1b; font-size: 14px;">1.</td>
                                           <td style="font-family: Arial, sans-serif; color: #991b1b; font-size: 14px; padding-bottom: 4px;">Enter the serial number exactly as shown above</td>
@@ -241,27 +185,15 @@ HTML
                                       </table>
                                     </td>
                                   </tr>
-                                  <!--[if gte mso 9]>
-                                    </v:textbox>
-                                  </v:roundrect>
-                                  <![endif]-->
                                 </table>
                               </td>
                             </tr>
                             <tr>
                               <td align="center">
-                                <table border="0" cellpadding="0" cellspacing="0" class="button-table" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                <table border="0" cellpadding="0" cellspacing="0">
                                   <tr>
-                                    <td align="center" bgcolor="#dc2626" style="border-radius: 4px;">
-                                      <!--[if gte mso 9]>
-                                      <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://itau.service-now.com/asset_regularization?serial=LR-07X92P5T" style="height:36px;v-text-anchor:middle;width:240px;" arcsize="10%" strokecolor="none" fillcolor="#dc2626">
-                                        <w:anchorlock/>
-                                        <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:14px;font-weight:bold;">REGULARIZE NOTEBOOK ASSIGNMENT</center>
-                                      </v:roundrect>
-                                      <![endif]-->
-                                      <!--[if !mso]><!-->
-                                      <a href="https://itau.service-now.com/asset_regularization?serial=LR-07X92P5T" target="_blank" style="font-family: Arial, sans-serif; background-color: #dc2626; border: 1px solid #dc2626; color: #ffffff; display: inline-block; font-size: 14px; font-weight: bold; line-height: 1; padding: 8px 16px; text-align: center; text-decoration: none; border-radius: 4px; -webkit-text-size-adjust: none;">REGULARIZE NOTEBOOK ASSIGNMENT</a>
-                                      <!--<![endif]-->
+                                    <td align="center" bgcolor="#dc2626" style="padding: 8px 16px;">
+                                      <a href="https://itau.service-now.com/asset_regularization?serial=LR-07X92P5T" target="_blank" style="font-family: Arial, sans-serif; color: #ffffff; display: inline-block; font-size: 14px; font-weight: bold; line-height: 1; text-align: center; text-decoration: none;">REGULARIZE NOTEBOOK ASSIGNMENT</a>
                                     </td>
                                   </tr>
                                 </table>
@@ -270,10 +202,6 @@ HTML
                           </table>
                         </td>
                       </tr>
-                      <!--[if gte mso 9]>
-                        </v:textbox>
-                      </v:roundrect>
-                      <![endif]-->
                     </table>
                   </td>
                 </tr>
@@ -281,32 +209,20 @@ HTML
                 <!-- Terms Section -->
                 <tr>
                   <td style="padding-bottom: 24px;">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f9fafb; border-radius: 8px; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
-                      <!--[if gte mso 9]>
-                      <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:auto;v-text-anchor:middle;width:560px;" arcsize="8%" strokecolor="none" fillcolor="#f9fafb">
-                        <w:anchorlock/>
-                        <v:textbox inset="0,0,0,0">
-                      <![endif]-->
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f9fafb;">
                       <tr>
                         <td style="padding: 16px;">
-                          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%">
                             <!-- Device Responsibility -->
                             <tr>
                               <td style="padding-bottom: 16px;">
-                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                   <tr>
                                     <td width="20" valign="top" style="padding-top: 4px;">
-                                      <!--[if gte mso 9]>
-                                      <v:oval xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:20px;width:20px;" fillcolor="#EC7000" strokecolor="none">
-                                        <w:anchorlock/>
-                                      </v:oval>
-                                      <![endif]-->
-                                      <!--[if !mso]><!-->
-                                      <img src="https://i.imgur.com/JMdtMpZ.png" width="20" height="20" alt="Laptop" style="display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
-                                      <!--<![endif]-->
+                                      <img src="https://i.imgur.com/JMdtMpZ.png" width="20" height="20" alt="Laptop" style="display: block;" />
                                     </td>
                                     <td style="padding-left: 12px;">
-                                      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                      <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                         <tr>
                                           <td style="font-family: Arial, sans-serif; font-weight: 500; color: #003087; padding-bottom: 4px;">
                                             Device Responsibility
@@ -328,20 +244,13 @@ HTML
                             <!-- Acceptable Use -->
                             <tr>
                               <td style="padding-bottom: 16px;">
-                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                   <tr>
                                     <td width="20" valign="top" style="padding-top: 4px;">
-                                      <!--[if gte mso 9]>
-                                      <v:oval xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:20px;width:20px;" fillcolor="#EC7000" strokecolor="none">
-                                        <w:anchorlock/>
-                                      </v:oval>
-                                      <![endif]-->
-                                      <!--[if !mso]><!-->
-                                      <img src="https://i.imgur.com/8Vw3yoJ.png" width="20" height="20" alt="Document" style="display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
-                                      <!--<![endif]-->
+                                      <img src="https://i.imgur.com/8Vw3yoJ.png" width="20" height="20" alt="Document" style="display: block;" />
                                     </td>
                                     <td style="padding-left: 12px;">
-                                      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                      <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                         <tr>
                                           <td style="font-family: Arial, sans-serif; font-weight: 500; color: #003087; padding-bottom: 4px;">
                                             Acceptable Use
@@ -363,20 +272,13 @@ HTML
                             <!-- Security Requirements -->
                             <tr>
                               <td>
-                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                   <tr>
                                     <td width="20" valign="top" style="padding-top: 4px;">
-                                      <!--[if gte mso 9]>
-                                      <v:oval xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:20px;width:20px;" fillcolor="#EC7000" strokecolor="none">
-                                        <w:anchorlock/>
-                                      </v:oval>
-                                      <![endif]-->
-                                      <!--[if !mso]><!-->
-                                      <img src="https://i.imgur.com/JYfAYOg.png" width="20" height="20" alt="Info" style="display: block; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic;" />
-                                      <!--<![endif]-->
+                                      <img src="https://i.imgur.com/JYfAYOg.png" width="20" height="20" alt="Info" style="display: block;" />
                                     </td>
                                     <td style="padding-left: 12px;">
-                                      <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                      <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                         <tr>
                                           <td style="font-family: Arial, sans-serif; font-weight: 500; color: #003087; padding-bottom: 4px;">
                                             Security Requirements
@@ -398,10 +300,6 @@ HTML
                           </table>
                         </td>
                       </tr>
-                      <!--[if gte mso 9]>
-                        </v:textbox>
-                      </v:roundrect>
-                      <![endif]-->
                     </table>
                   </td>
                 </tr>
@@ -409,17 +307,10 @@ HTML
                 <!-- ServiceNow Approval Section -->
                 <tr>
                   <td style="padding-bottom: 24px;">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border: 1px solid #e5e7eb; border-radius: 8px; mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
-                      <!--[if gte mso 9]>
-                      <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:auto;v-text-anchor:middle;width:560px;" arcsize="8%" strokecolor="#e5e7eb" fillcolor="#ffffff">
-                        <w:anchorlock/>
-                        <v:textbox  fillcolor="#ffffff">
-                        <w:anchorlock/>
-                        <v:textbox inset="0,0,0,0">
-                      <![endif]-->
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border: 1px solid #e5e7eb;">
                       <tr>
                         <td style="padding: 16px;">
-                          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                          <table border="0" cellpadding="0" cellspacing="0" width="100%">
                             <tr>
                               <td style="font-family: Arial, sans-serif; font-size: 16px; color: #003087; padding-bottom: 12px; font-weight: 500;">
                                 Approval Required
@@ -432,39 +323,23 @@ HTML
                             </tr>
                             <tr>
                               <td>
-                                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                   <tr>
                                     <td>
-                                      <table border="0" cellpadding="0" cellspacing="0" class="button-table" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                      <table border="0" cellpadding="0" cellspacing="0">
                                         <tr>
-                                          <td align="center" bgcolor="#EC7000" style="border-radius: 4px;">
-                                            <!--[if gte mso 9]>
-                                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://itau.service-now.com/approve.do?sys_id=12345&action=approve" style="height:40px;v-text-anchor:middle;width:100px;" arcsize="10%" strokecolor="none" fillcolor="#EC7000">
-                                              <w:anchorlock/>
-                                              <center style="color:#ffffff;font-family:Arial,sans-serif;font-size:16px;font-weight:bold;">APPROVE</center>
-                                            </v:roundrect>
-                                            <![endif]-->
-                                            <!--[if !mso]><!-->
-                                            <a href="https://itau.service-now.com/approve.do?sys_id=12345&action=approve" target="_blank" style="font-family: Arial, sans-serif; background-color: #EC7000; border: 1px solid #EC7000; color: #ffffff; display: inline-block; font-size: 16px; font-weight: bold; line-height: 1; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 4px; -webkit-text-size-adjust: none;">APPROVE</a>
-                                            <!--<![endif]-->
+                                          <td align="center" bgcolor="#EC7000" style="padding: 10px 20px;">
+                                            <a href="https://itau.service-now.com/approve.do?sys_id=12345&action=approve" target="_blank" style="font-family: Arial, sans-serif; color: #ffffff; display: inline-block; font-size: 16px; font-weight: bold; line-height: 1; text-align: center; text-decoration: none;">APPROVE</a>
                                           </td>
                                         </tr>
                                       </table>
                                     </td>
                                     <td style="width: 20px;">&nbsp;</td>
                                     <td>
-                                      <table border="0" cellpadding="0" cellspacing="0" class="button-table" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                                      <table border="0" cellpadding="0" cellspacing="0">
                                         <tr>
-                                          <td align="center" bgcolor="#f3f4f6" style="border-radius: 4px;">
-                                            <!--[if gte mso 9]>
-                                            <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://itau.service-now.com/approve.do?sys_id=12345&action=reject" style="height:40px;v-text-anchor:middle;width:100px;" arcsize="10%" strokecolor="#d1d5db" fillcolor="#f3f4f6">
-                                              <w:anchorlock/>
-                                              <center style="color:#374151;font-family:Arial,sans-serif;font-size:16px;">REJECT</center>
-                                            </v:roundrect>
-                                            <![endif]-->
-                                            <!--[if !mso]><!-->
-                                            <a href="https://itau.service-now.com/approve.do?sys_id=12345&action=reject" target="_blank" style="font-family: Arial, sans-serif; background-color: #f3f4f6; border: 1px solid #d1d5db; color: #374151; display: inline-block; font-size: 16px; line-height: 1; padding: 10px 20px; text-align: center; text-decoration: none; border-radius: 4px; -webkit-text-size-adjust: none;">REJECT</a>
-                                            <!--<![endif]-->
+                                          <td align="center" bgcolor="#f3f4f6" style="padding: 10px 20px; border: 1px solid #d1d5db;">
+                                            <a href="https://itau.service-now.com/approve.do?sys_id=12345&action=reject" target="_blank" style="font-family: Arial, sans-serif; color: #374151; display: inline-block; font-size: 16px; line-height: 1; text-align: center; text-decoration: none;">REJECT</a>
                                           </td>
                                         </tr>
                                       </table>
@@ -483,10 +358,6 @@ HTML
                           </table>
                         </td>
                       </tr>
-                      <!--[if gte mso 9]>
-                        </v:textbox>
-                      </v:roundrect>
-                      <![endif]-->
                     </table>
                   </td>
                 </tr>
@@ -494,7 +365,7 @@ HTML
                 <!-- Contact Info -->
                 <tr>
                   <td style="border-top: 1px solid #e5e7eb; padding-top: 16px;">
-                    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
                       <tr>
                         <td style="font-family: Arial, sans-serif; font-size: 14px; color: #6b7280; padding-bottom: 4px;">
                           For questions or support regarding your notebook, please contact the IT Service Desk:
@@ -511,22 +382,13 @@ HTML
                   </td>
                 </tr>
               </table>
-              <!--[if gte mso 9]>
-                </v:textbox>
-              </v:roundrect>
-              <![endif]-->
             </td>
           </tr>
           
           <!-- Footer -->
           <tr>
-            <td bgcolor="#003087" style="padding: 16px; text-align: center; color: white; border-bottom-left-radius: 8px; border-bottom-right-radius: 8px;">
-              <!--[if gte mso 9]>
-              <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" style="height:60px;v-text-anchor:middle;width:560px;" arcsize="8%" strokecolor="none" fillcolor="#003087">
-                <w:anchorlock/>
-                <v:textbox inset="0,0,0,0">
-              <![endif]-->
-              <table border="0" cellpadding="0" cellspacing="0" width="100%" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt;">
+            <td bgcolor="#003087" style="padding: 16px; text-align: center; color: white;">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%">
                 <tr>
                   <td style="font-family: Arial, sans-serif; font-size: 12px; color: #ffffff; text-align: center; padding-bottom: 4px;">
                     © 2025 Itaú Unibanco S.A. All rights reserved.
@@ -538,10 +400,6 @@ HTML
                   </td>
                 </tr>
               </table>
-              <!--[if gte mso 9]>
-                </v:textbox>
-              </v:roundrect>
-              <![endif]-->
             </td>
           </tr>
         </table>
@@ -550,4 +408,5 @@ HTML
   </table>
 </body>
 </html>
+
 ```

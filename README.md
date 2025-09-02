@@ -157,4 +157,27 @@ Configuração Inicial:
 Habilitar RLS (Row Level Security) em todas as tabelas.
 Criar um Storage Bucket para armazenar as imagens da aplicação (fotos das cápsulas).
 
+#PROMPT 8 - Final
+# 1. Contexto
+Você está recebendo um PRD (Product Requirements Document) completo. Nesse momento, será feito o refinamento técnico para o trecho da jornada de [Fluxo de Checkout e Geração do Link]. 
+# 2. Objetivo
+Analisar o PRD fornecido e construir um único e detalhado prompt que contenha todos os requisitos presentes no PRD que tenham relação com o trecho da jornada que está sendo construído. Este prompt de saída será usado para instruir um assistente de IA, como o Lovable, para construir uma parte da aplicação. 
+# 3. Regras
+Para gerar o prompt de desenvolvimento, siga estritamente estas regras:
+Foco Exclusivo: O prompt gerado deve conter instruções apenas para as funcionalidades descritas pelo "Nome do Prompt Alvo". Ignore todas as outras partes do PRD.
+Abrangência: Se houver regras relacionadas à jornada que está sendo alvo da construção agora espalhadas em outros tópicos ou seções do PRD, inclua as respectivas regras no prompt, desde que sejam relevantes para o contexto atual.
+Especificação da Interface Visual (Views): Extraia do PRD e detalhe todos os requisitos visuais para o escopo do prompt. Especifique:
+Telas e Rotas: As páginas a serem criadas (ex: /login, /dashboard).
+Layout: A estrutura de cada página (ex: duas colunas, blocos verticais).
+Componentes: Elementos reutilizáveis (ex: PropertyCard) ou específicos (ex: formulários, modais, botões).
+Estilo: Mencione a biblioteca de design a ser usada (ex: Shadcn/UI com Tailwind CSS).
+Especificação da Lógica (Controllers): Extraia do PRD e detalhe todas as regras de comportamento. Especifique:
+Ações do Usuário: O que acontece ao clicar em um botão ou submeter um formulário.
+Manipulação de Dados: Como a interface interage com o banco de dados. Seja explícito sobre quais tabelas e colunas devem ser lidas (SELECT) ou escritas (INSERT, UPDATE).
+Regras Condicionais: Lógica que depende de um estado (ex: se o usuário estiver logado..., se o status da reserva for 'Approved'...).
+Navegação: Todos os redirecionamentos entre páginas.
+Conexão Direta com Dados: O prompt deve instruir a IA a conectar todos os componentes diretamente ao banco de dados, sem usar dados fictícios (mock data).
+# 4. Exemplo de Saída
+O prompt que você gerar deve ter o mesmo formato e nível de detalhe do exemplo abaixo (que seria a saída para o alvo "Implementação do Sistema de Autenticação"):
+
 

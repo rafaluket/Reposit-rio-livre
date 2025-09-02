@@ -157,7 +157,7 @@ Configuração Inicial:
 Habilitar RLS (Row Level Security) em todas as tabelas.
 Criar um Storage Bucket para armazenar as imagens da aplicação (fotos das cápsulas).
 
-#PROMPT 8 - Final
+# PROMPT 8 - Final
 # 1. Contexto
 Você está recebendo um PRD (Product Requirements Document) completo. Nesse momento, será feito o refinamento técnico para o trecho da jornada de [Fluxo de Checkout e Geração do Link]. 
 # 2. Objetivo
@@ -179,5 +179,22 @@ Navegação: Todos os redirecionamentos entre páginas.
 Conexão Direta com Dados: O prompt deve instruir a IA a conectar todos os componentes diretamente ao banco de dados, sem usar dados fictícios (mock data).
 # 4. Exemplo de Saída
 O prompt que você gerar deve ter o mesmo formato e nível de detalhe do exemplo abaixo (que seria a saída para o alvo "Implementação do Sistema de Autenticação"):
+Crie o sistema de autenticação completo da aplicação, cobrindo o fluxo de cadastro e login para todos os usuários. Utilize o Supabase Auth para a lógica de backend.
+1. Crie a Página de Acesso (Rota: /login)
+Esta página servirá tanto para login quanto para cadastro.
+O layout principal deve conter um componente de Abas (Tabs), com "Entrar" e "Cadastrar". A aba "Entrar" deve ser a padrão.
+
+2. Configure a Aba "Cadastrar"
+Formulário: Campo para "Nome Completo", "E-mail", "Senha" e botão "Cadastrar".
+Lógica Funcional (Supabase): Ao submeter, chame supabase.auth.signUp. Após o sucesso, insira uma nova linha na tabela public.profiles. Após o cadastro, redirecione o usuário para a Homepage (/).
+
+3. Configure a Aba "Entrar"
+Formulário: Campo para "E-mail", "Senha" e botão "Entrar".
+Lógica Funcional (Supabase): Ao submeter, chame supabase.auth.signInWithPassword. Em caso de sucesso, redirecione para o /dashboard. Em caso de erro, mostre uma mensagem.
+
+4. Gerenciamento de Sessão e Atualização do Header
+Implemente um provedor de contexto para gerenciar o estado da sessão.
+Modifique o componente de Cabeçalho para ser dinâmico: se logado, mostrar nome e "Sair"; se deslogado, mostrar "Entrar" e "Cadastrar".
+A ação "Sair" deve chamar supabase.auth.signOut e redirecionar para a página inicial.
 
 

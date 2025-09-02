@@ -93,3 +93,68 @@ Elabore os PRDs. Suas instruções são as seguintes:
 O objetivo dos PRDs agora será passar para uma IA fazer o desenvolvimento do prototipo. A IA vai escolher as ferramentas e estrutura final, nosso objetivo é definir as funcionalidades e telas.
 Pense em como vai quebrar os PRDs para que façam sentido para o desenvolvimento em ordem.
 O primeiro PRD deve ter o contexto do que conversamos.
+
+#PROMPT 4 - Definindo modelo de dados
+##1. Contexto
+O documento a seguir é um PRD (Product Requirements Document). A primeira e mais fundamental etapa do refinamento técnico é extrair todos os requisitos de dados para criar um Modelo de Dados completo. Este modelo servirá como a estrutura de banco de dados para toda a aplicação e será a base para todos os prompts de desenvolvimento de funcionalidades.
+## 2. Objetivo
+Gere um único e detalhado prompt de desenvolvimento que instrua uma IA, como o Lovable, a criar a estrutura completa do banco de dados (Modelo de Dados) no Supabase, com base no PRD fornecido. Siga as regras e o exemplo de saída abaixo.
+## 3. Regras
+Para gerar o prompt de saída, siga estritamente os seguintes passos de análise e formatação:
+Análise Abrangente: Analise o PRD de ponta a ponta para identificar todas as necessidades de armazenamento de dados, mesmo as implícitas nas jornadas de usuário.
+Identificação de Entidades (Tabelas): Identifique e liste as entidades centrais do sistema (ex: Equipamento,usuario, contrato, local/agencia, categoria de equipamento, grupo responsavel). Cada entidade corresponderá a uma tabela no banco de dados.
+Listagem de Atributos (Colunas): Para cada tabela, liste todos os seus atributos (campos) necessários, extraindo-os das descrições funcionais e listas de campos no PRD.
+Mapeamento de Relacionamentos: Defina as conexões entre as tabelas usando chaves estrangeiras (ex: owner_id na tabela Capsule deve referenciar o id da tabela de usuários).
+Especificação de Tipos e Restrições: Para cada atributo, especifique o tipo de dado mais apropriado (TEXT, NUMERIC, DATE, ENUM, ARRAY, etc.) e adicione quaisquer restrições de dados necessárias (não nulo, valor padrão, único, CHECK constraint).
+Aplicação de Boas Práticas SQL: Incorpore as melhores práticas específicas do SQL, como o uso de uma tabela profiles para dados públicos de usuários vinculada à autenticação e a recomendação de habilitar Row Level Security (RLS).
+Formatação do Prompt de Saída: O resultado final deve ser um texto de prompt único, formatado com clareza, usando títulos ## para tabelas e uma lista simples para os atributos, pronto para ser executado.
+
+#PROMPT 5 - Plano de Desenvolvimento
+# 1. Contexto
+O documento a seguir é um PRD (Product Requirements Document) para uma nova aplicação de software. Ele precisa ser refinado e quebrado em um plano de desenvolvimento. O plano consistirá em uma lista ordenada de nomes de prompts, que serão enviados sequencialmente a um assistente de IA, como o Lovable, para construir a aplicação passo a passo.
+# 2. Objetivo
+Gere a lista de prompts que devem ser enviados a cada vez, seguindo as regras e o exemplo de saída a seguir.
+# 3. Regras
+Para criar a lista, você deve seguir estritamente os seguintes critérios pragmáticos e objetivos para o sequenciamento e agrupamento das funcionalidades:
+O Modelo de Dados é Sempre o Primeiro: A sequência de prompts deve, invariavelmente, começar com o prompt de "Definição do Modelo de Dados", que abrange a análise de todo o escopo do PRD.
+Agrupar por Jornada de Usuário: Todas as funcionalidades de interface e lógica subsequentes devem ser agrupadas em blocos que representem uma "Jornada de Usuário" completa e coesa. Se uma jornada for excessivamente complexa (especialmente em layout), ela deve ser dividida em prompts menores e mais focados.
+Ordenar por Dependência Técnica: A ordem dos prompts de jornada deve seguir estritamente esta hierarquia de prioridade para garantir que cada bloco seja construído sobre uma fundação já funcional:
+a. Jornada Pública (Leitura): Primeiro, construir a "vitrine" da aplicação, que expõe os dados ao público (ex: Home page com demonstração de uma capsula finalizada).
+b. Jornada de Autenticação: Em seguida, implementar o "portão" de acesso, um pré-requisito para todas as ações restritas.
+c. Jornada de Criação de Conteúdo (Escrita no Banco de Dados): Depois, os fluxos que permitem aos usuários "produtores" alimentar a plataforma com dados (ex: criar capsula digital).
+d. Jornada de Transação: O "core loop" do negócio que conecta os usuários, criadores e visualizadores (ex: visualizar capsula criada).
+Nomenclatura: Os nomes dos prompts devem ser curtos, intuitivos e descrever a principal entrega do bloco.
+
+#PROMPT 6 - Contextualização e criação do modelo de dados
+Vamos iniciar a criação de uma plataforma de capsula digital para casais. A primeira e mais importante etapa é definir toda a nossa estrutura de banco de dados no Supabase. Por favor, crie as tabelas e os relacionamentos conforme a especificação detalhada abaixo.
+
+Resumo da Lógica:
+
+A plataforma terá Users (usuários), que podem ser tanto criadores das capsulas quanto visualizadores.
+
+Um User (criador) pode ter várias Capsules(capsulas).
+
+Um User (visualizador) não precisa se autenticar e apenas vê as capsulas já criadas.
+
+
+Configuração Inicial:
+Habilitar RLS (Row Level Security) em todas as tabelas.
+Criar um Storage Bucket para armazenar as imagens da aplicação (fotos das cápsulas).
+
+#PROMPT 7 - Criando e Definindo o sistema
+Vamos iniciar a criação de uma plataforma de capsula digital para casais. A primeira e mais importante etapa é definir toda a nossa estrutura de banco de dados no Supabase. Por favor, crie as tabelas e os relacionamentos conforme a especificação detalhada abaixo.
+
+Resumo da Lógica:
+
+A plataforma terá Users (usuários), que podem ser tanto criadores das capsulas quanto visualizadores.
+
+Um User (criador) pode ter várias Capsules(capsulas).
+
+Um User (visualizador) não precisa se autenticar e apenas vê as capsulas já criadas.
+
+
+Configuração Inicial:
+Habilitar RLS (Row Level Security) em todas as tabelas.
+Criar um Storage Bucket para armazenar as imagens da aplicação (fotos das cápsulas).
+
+
